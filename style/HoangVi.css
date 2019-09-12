@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+
+.HoangVi{
+	width: 1920px;
+	height: 80px;
+	margin: 0 auto;
+	
+}
+.clear{
+	clear: both;
+}
+.header{
+	width: 1220px;
+	height: 80px;
+	background-color:white;
+	margin: 0 auto; 
+}
+.logo{
+	width: 300px;
+	height: 80px;
+	float:left; 
+	
+}
+.menu{
+	width: 920px;
+	height: 80px;
+	float: right;
+}
+.menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 20px;
+	
+	
+}
+.menu ul li {
+	float: left;
+	position: relative;
+	padding: 10px 20px 10px 20px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+}
+.menu ul li:hover{
+	background-color: #DAB67A;
+	height: 100px;
+}
+.menu ul li ul{
+	position: absolute;
+	left: 0px;
+	top: 50px;
+	background:#6B6B6B;
+	visibility: hidden;
+	z-index: 100000;
+}
+.menu ul li:hover ul{
+	visibility: visible;
+}
+.silder{
+	width: 1920px;
+	height: 1000px;
+	background-color: yellow;
+}
+.text{
+	width: 1920px;
+	height: 130px;
+	line-height: 160px;
+	background:url("../images/square_03.gif");
+	font-size: 20px;
+	text-align: center;
+	background-color: yellow;
+}
+.textin{
+	margin: 20px;
+}
+.textcolor{
+	width: 300px;
+	height:100px;
+	margin: 0 auto;
+	background-color: white;
+}
+.main{
+	width: 1180px;
+	height: 430px;
+	background-color: white;
+	margin: 0 auto;
+	
+}
+.mainAleft{
+	width: 780px;
+	height: 430px;
+	float: left;
+	border: solid #EDEDED 1px;
+	font-size: 30px;
+}
+.mainAright{
+	width: 370px;
+	height: 430px;
+	border: solid #EDEDED 1px;
+	float: right;
+	font-size: 30px;
+	
+}
+.main01{
+	width: 1180px;
+	height: 420px;
+	background-color: white;
+	margin: 0 auto;
+	
+}
+.main01left{
+	width: 780px;
+	height: 420px;
+	float: left;
+	margin-top: 30px;
+	
+}
+.main01left1{
+	width: 370px;
+	height: 420px;
+	float:left;
+	border: solid #EDEDED 1px;
+	font-size: 30px;
+}
+.main01left2{
+	width: 370px;
+	height: 420px;
+	float:right;
+	border: solid #EDEDED 1px;
+	font-size: 30px;
+}
+
+.main01right{
+	width: 370px;
+	height: 420px;
+	float: right;
+	margin-top:30px;
+	border: solid #EDEDED 1px;
+	font-size: 30px;
+		
+}
+.main02{
+	width: 1180px;
+	height: 730px;
+	margin: 0 auto;
+}
+.main021{
+	width: 580px;
+	height: 740px;
+	float:left;
+}
+
+.main02img{
+	width: 270px;
+	height: 380px;
+	float: left;
+	text-align: center;
+	margin:0px 0px 0px 20px;
+	
+}
+.main02img:hover a {
+	opacity:0.9
+}
+.main02img span{
+	color:#DBB87E;
+}
+.main03{
+	width:1180px;
+	height:280px;
+	margin: 0 auto;
+}
+.main04{
+	width:1920px;
+	height:520px;
+	margin: 0 auto;
+}
+.main05{
+	width:1180px;
+	height:500px;
+	margin: 0 auto;
+}
+.main06{
+	width:1180px;
+	height:400px;
+	margin:0 auto;
+}
+.main061{
+	width:370px;
+	height:400px;
+	margin:0px 0px 0px 20px;
+	float:left;
+}
+.main07{
+	width:1180px;
+	height:460px;
+	margin:0 auto;
+}
+.main071{
+	width:370px;
+	height:460px;
+	margin:0px 0px 0px 20px;
+	float:left;
+}
+.white2{
+	width: 1920px;
+	height: 30px;
+	background-color: white;
+}
+
+.footer{
+	width:1920px;
+	height:600px;
+	margin:0 auto;
+	background-color:white;
+	
+}
+.footer01{
+	width:1920px;
+	height:600px;
+	margin: 0 auto;
+	
+
+}
+.map{
+	width:960px;
+	height:600px;
+	background-color:white;
+	float:left;
+	border: solid #EDEDED 1px;
+}
+.formhoangvi{
+	width:960px;
+	height:600px;
+	background-color:white;
+	float:left;
+	
+}
+.gallery{
+	width:960px;
+	height:600px;
+	background-color:aqua;
+	float:left;
+	border: solid #EDEDED 1px;
+	
+}
+.end{
+	width:1920px;
+	height:600px;
+}
+.end1{
+	width: 1920px;
+	height: 77px;
+	margin: 0 auto;
+	background-color:black;
+}
+.end3{
+	padding:30px;
+}
+.mySlides {
+	display:none;
+}
+.formbox h1{
+	color: #000000;
+		}
+.byline {
+	border-bottom: 1px #AAA7A7 dashed;
+	margin: 10px 20px 20px 20px;
+}
+.formbox {
+	 padding:20px;
+	 width:640px; 
+	 margin: 0px auto;
+	
+}
+.formbox table{
+	width: 100%;
+}
+.formbox h1{
+	padding-top: 20px; font-weight: bold;
+}
+.formbox input[type='password'],.formbox input[type='text'],.formbox textarea,.formbox select{
+	width:80%; padding-left:3px;
+}
+.formbox table td.right{
+	 width:30%; text-align: right;
+}
+.formbox table td.left{
+	 width:70%; text-align: left;
+}	
+	
